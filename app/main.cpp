@@ -17,7 +17,7 @@ void printBanner(size_t wordCount) {
     std::cout << "\n";
     std::cout << "╔═══════════════════════════════════════╗\n";
     std::cout << "║  LexiCore — Fuzzy Search Engine       ║\n";
-    std::cout << "║  Dictionary: " << wordCount << " words loaded"
+    std::cout << "║  Dictionary: " << wordCount << " words loaded "
               << std::string(std::max(0, 6 - static_cast<int>(std::to_string(wordCount).size())), ' ')
               << "     ║\n";
     std::cout << "╚═══════════════════════════════════════╝\n\n";
